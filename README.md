@@ -121,6 +121,26 @@ Teacher/admin views, attendance history, CSV exports, and English/Hindi/Marathi 
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=venox-2007&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=C4A7E7&amp;icon_color=A78BFA&amp;text_color=C9D1D9" width="495" alt="venox-2007 GitHub statistics" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=venox-2007&amp;theme=tokyonight&amp;hide_border=true&amp;background=0D1117&amp;ring=A78BFA&amp;fire=C4A7E7&amp;currStreakLabel=C4A7E7" width="495" alt="venox-2007 contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=venox-2007&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=C4A7E7&amp;text_color=C9D1D9" width="495" alt="Most used languages across public repositories" />
+</p>
+
+<p align="center">
+  <sub>Cards refresh periodically. Language percentages reflect repository code, not proficiency.</sub>
+</p>
+
+---
+
 <div align="center">
 
 **From model internals to the interface around them.**
