@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/venox-2007/venox-2007/main/assets/profile-banner.png" width="100%" alt="venox — build, experiment, ship — purple ninja coder" />
+
 # Hi, I'm Yug 👋
 ### AI experiments. Local tools. Useful interfaces.
 
