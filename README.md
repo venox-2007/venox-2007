@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/venox-2007/venox-2007/main/assets/profile-banner.png" width="100%" alt="venox — build, experiment, ship — purple ninja coder" />
+<img src="https://raw.githubusercontent.com/venox-2007/venox-2007/main/assets/profile-banner.png?v=2" width="100%" alt="venox — build, experiment, ship — purple circuit design" />
 
 # Hi, I'm Yug 👋
 ### AI experiments. Local tools. Useful interfaces.
