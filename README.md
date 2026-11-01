@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/venox-2007/venox-2007/main/assets/profile-banner.png?v=2" width="100%" alt="venox — build, experiment, ship — purple circuit design" />
+<img src="https://raw.githubusercontent.com/venox-2007/venox-2007/main/assets/venox-wordmark-banner.png" width="100%" alt="venox — build, experiment, ship — purple circuit design" />
 
 # Hi, I'm Yug 👋
 ### AI experiments. Local tools. Useful interfaces.
@@ -118,6 +118,22 @@ Teacher/admin views, attendance history, CSV exports, and English/Hindi/Marathi 
 | [Merit & Mint](https://github.com/venox-2007/Merit-Mint) | Static skincare storefront demo with product filters and quick views; contact submission is frontend-only. |
 
 </details>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=venox-2007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C4A7E7&icon_color=A78BFA&text_color=C9D1D9" width="495" alt="venox-2007 GitHub statistics" />
+
+<img src="https://streak-stats.demolab.com/?user=venox-2007&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=C4A7E7&currStreakLabel=C4A7E7" width="495" alt="venox-2007 contribution streak" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=venox-2007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C4A7E7&text_color=C9D1D9" width="495" alt="Most used languages across public repositories" />
+
+<sub>Cards refresh periodically. Language percentages reflect repository code, not proficiency.</sub>
+
+</div>
 
 ---
 
