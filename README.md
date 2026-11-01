@@ -62,6 +62,14 @@ Custom byte-level BPE, causal self-attention, decoder blocks, pretraining and co
 `Python` `PyTorch` `FastAPI` `Next.js`  
 **Scope:** Educational model engineering; trained checkpoints are local artifacts and are not bundled in the repository.
 
+### 🌾 [FarmWise](https://github.com/venox-2007/FarmWise)
+**A multilingual agriculture assistant with crop-image analysis and live voice/video interaction.**
+
+Combines Gemini-powered crop analysis, structured treatment suggestions, a live assistant that accepts camera frames and microphone audio, and Open-Meteo weather forecasts. A React/TypeScript interface brings together crop advice, market views, and agricultural schemes.
+
+`TypeScript` `React` `Gemini API` `Vite`  
+**Scope:** API-integrated application prototype; market prices come from local data, and farmer login is a local profile flow.
+
 ### 🎙️ [Speech Enhancement & ASR Correction](https://github.com/venox-2007/speech-enhancement-asr-correction)
 **A trained U-Net, pretrained Whisper, and pronunciation-aware transcript correction.**
 
@@ -86,14 +94,6 @@ Combines an Ollama tool-calling provider, FastAPI backend, memory and workflow m
 `Python` `Ollama` `FastAPI` `React` `Electron`  
 **Scope:** Development project; integrations and packaging need to be evaluated in their intended local environment.
 
-### 🔎 [ResearchOS](https://github.com/venox-2007/research-os)
-**A research-workflow prototype with hybrid retrieval and traceable evidence.**
-
-Implements FAISS/BM25 retrieval fusion, LangGraph orchestration, paper ingestion, evidence storage, experiment routines, and a React dashboard.
-
-`Python` `FAISS` `LangGraph` `FastAPI` `React`  
-**Scope:** Prototype. The current LLM factory returns mock providers, including when Ollama or Gemini is selected.
-
 ### 📋 [Akshar Connect](https://github.com/venox-2007/akshar-connect-attendance-app)
 **Attendance and student-record workflows for an educational NGO use case.**
 
@@ -109,7 +109,7 @@ Teacher/admin views, attendance history, CSV exports, and English/Hindi/Marathi 
 
 | Project | What it explores |
 | :--- | :--- |
-| [FarmWise](https://github.com/venox-2007/FarmWise) | Agriculture assistant prototype with Gemini image analysis, live audio/video interaction, and weather integration. Market-price data is supplied by local code. |
+| [ResearchOS](https://github.com/venox-2007/research-os) | Research-workflow prototype with FAISS/BM25 retrieval, LangGraph orchestration, and traceable evidence; the current LLM factory uses mock providers. |
 | [AtomQuest Goal Portal](https://github.com/venox-2007/atomquest-goal-portal) | React hackathon dashboard for goal approvals, weight validation, quarterly check-ins, and reports using mock data. |
 | [TaskMaster](https://github.com/venox-2007/TaskMaster-Vibe2Ship) | React/Express productivity-coach prototype with Gemini-backed planning and a focus timer. |
 | [Global Population Predictor](https://github.com/venox-2007/global-population-predictor) | Streamlit exploration of country population trends using quadratic regression; forecasts are illustrative extrapolations. |
