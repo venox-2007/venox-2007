@@ -121,8 +121,6 @@ Teacher/admin views, attendance history, CSV exports, and English/Hindi/Marathi 
 
 ---
 
----
-
 <div align="center">
 
 **From model internals to the interface around them.**
