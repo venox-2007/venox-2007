@@ -97,12 +97,12 @@ Combines an Ollama tool-calling provider, FastAPI backend, memory and workflow m
 **Scope:** Development project; integrations and packaging need to be evaluated in their intended local environment.
 
 ### 🌌 [ORION](https://github.com/venox-2007/Orion)
-**A local-first personal AI assistant with Telegram text and voice commands.**
+**Your Windows PC, one message or voice note away.**
 
-Combines local Ollama inference, SQLite conversation memory, structured task planning, and faster-whisper voice transcription with a FastAPI core. Includes system inspection, file operations within approved folders, and approved Windows application launching and window control, with confirmation-based execution and activity history.
+A personal AI command center you talk to through Telegram. Launch apps, take control of windows, organize files, inspect your system, and run confirmed multi-step workflows from natural-language requests. Powered by local Ollama inference and on-device voice transcription, with persistent conversation memory, task planning, and execution history built around your own machine.
 
 `Python` `Ollama` `FastAPI` `SQLite` `Telegram Bot API` `faster-whisper`  
-**Scope:** Development project with owner-only Telegram access and controlled local tools; task plans are proposals, and write actions require confirmation.
+**Scope:** Actively developed personal assistant; Telegram access is owner-only, file access stays within approved folders, and actions that change your PC require confirmation.
 
 <details>
 <summary><b>🌱 More builds & earlier experiments</b></summary>
