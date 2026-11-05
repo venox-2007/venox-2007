@@ -96,13 +96,13 @@ Combines an Ollama tool-calling provider, FastAPI backend, memory and workflow m
 `Python` `Ollama` `FastAPI` `React` `Electron`  
 **Scope:** Development project; integrations and packaging need to be evaluated in their intended local environment.
 
-### 📋 [Akshar Connect](https://github.com/venox-2007/akshar-connect-attendance-app)
-**Attendance and student-record workflows for an educational NGO use case.**
+### 🌌 [ORION](https://github.com/venox-2007/Orion)
+**A local-first personal AI assistant with Telegram text and voice commands.**
 
-Teacher/admin views, attendance history, CSV exports, and English/Hindi/Marathi interfaces. The code includes Supabase authentication/data paths, a PostgreSQL migration with access policies, and a local demo fallback.
+Combines local Ollama inference, SQLite conversation memory, structured task planning, and faster-whisper voice transcription with a FastAPI core. Includes system inspection, file operations within approved folders, and approved Windows application launching and window control, with confirmation-based execution and activity history.
 
-`TypeScript` `React` `Tailwind CSS` `Supabase`  
-**Scope:** Demo plus backend integration code; live deployment and server-side policy enforcement are not established by the repository alone.
+`Python` `Ollama` `FastAPI` `SQLite` `Telegram Bot API` `faster-whisper`  
+**Scope:** Development project with owner-only Telegram access and controlled local tools; task plans are proposals, and write actions require confirmation.
 
 <details>
 <summary><b>🌱 More builds & earlier experiments</b></summary>
