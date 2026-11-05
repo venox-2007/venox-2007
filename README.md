@@ -3,12 +3,12 @@
 <img src="https://raw.githubusercontent.com/venox-2007/venox-2007/main/assets/venox-blue-banner.jpg" width="100%" alt="venox — build, experiment, ship — blue circuit design" />
 
 # Hi, I'm Yug 👋
-### AI experiments. Local tools. Useful interfaces.
+### From model internals to AI that takes action.
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1100&color=38BDF8&center=true&vCenter=true&width=700&height=55&lines=Building+models+from+the+ground+up;Exploring+speech%2C+documents+%26+local+AI;From+experiment+to+interface" width="700" alt="Building models from the ground up · Exploring speech, documents and local AI · From experiment to interface" />
 
-I build across the stack: model internals in PyTorch, Python APIs, and React interfaces.<br>
-My repositories explore small language models, speech processing, document extraction, and local AI assistants.
+I build language models from the ground up and turn AI into tools you can use.<br>
+Exploring local assistants, speech, and applied AI with Python, PyTorch, and React.
 
 [Explore projects](#-selected-projects) · [Browse repositories](https://github.com/venox-2007?tab=repositories) · [GitHub activity](https://github.com/venox-2007?tab=overview)
 
@@ -16,101 +16,49 @@ My repositories explore small language models, speech processing, document extra
 
 ---
 
-## 🔬 What I build
-
-- **Models from first principles** — tokenization, causal attention, training loops, and text generation.
-- **Experiments with evidence** — comparing extraction tools and measuring audio quality alongside recognition errors.
-- **AI tools with interfaces** — local model integration, permission-aware workflows, and web or desktop frontends.
-
-## 🧰 Technologies used in my projects
-
-These badges reflect repository code and tooling, rather than a claim of expertise in every technology.
-
-**Languages & web fundamentals**
-
-![Python](https://img.shields.io/badge/Python-0369A1?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-0369A1?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-0369A1?style=for-the-badge&logo=javascript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-0369A1?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-0369A1?style=for-the-badge&logo=css&logoColor=white)
-
-**Models, retrieval & data**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-0369A1?style=for-the-badge&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-0369A1?style=for-the-badge&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-0369A1?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0369A1?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-0369A1?style=for-the-badge&logo=ollama&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-0369A1?style=for-the-badge&logo=langgraph&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0369A1?style=for-the-badge)
-
-**Applications & testing**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-0369A1?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-0369A1?style=for-the-badge&logo=streamlit&logoColor=white)
-![React](https://img.shields.io/badge/React-0369A1?style=for-the-badge&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-0369A1?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0369A1?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-0369A1?style=for-the-badge&logo=electron&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0369A1?style=for-the-badge&logo=pytest&logoColor=white)
-
 ## ✨ Selected projects
-
-### 🧠 [GroundUpGPT](https://github.com/venox-2007/GroundUpGPT)
-**A small GPT-style language model, built from the fundamentals.**
-
-Custom byte-level BPE, causal self-attention, decoder blocks, pretraining and conversational fine-tuning code, plus a FastAPI streaming backend and Next.js chat interface. The repository documents experiments with approximately 5M and 27M parameter models.
-
-`Python` `PyTorch` `FastAPI` `Next.js`  
-**Scope:** Educational model engineering; trained checkpoints are local artifacts and are not bundled in the repository.
-
-### 🌾 [FarmWise](https://github.com/venox-2007/FarmWise)
-**A multilingual agriculture assistant with crop-image analysis and live voice/video interaction.**
-
-Combines Gemini-powered crop analysis, structured treatment suggestions, a live assistant that accepts camera frames and microphone audio, and Open-Meteo weather forecasts. A React/TypeScript interface brings together crop advice, market views, and agricultural schemes.
-
-`TypeScript` `React` `Gemini API` `Vite`  
-**Scope:** API-integrated application prototype; market prices come from local data, and farmer login is a local profile flow.
-
-### 🎙️ [Speech Enhancement & ASR Correction](https://github.com/venox-2007/speech-enhancement-asr-correction)
-**A trained U-Net, pretrained Whisper, and pronunciation-aware transcript correction.**
-
-Includes a Streamlit demo, a committed enhancement checkpoint, and saved evaluations on 824 test recordings. The key finding: denoising improves objective audio metrics but increases Whisper word errors; conservative correction yields a small improvement within each audio path.
-
-`Python` `PyTorch` `Whisper` `GPT-2` `Streamlit`  
-**Scope:** Completed experiment with documented limitations; the full pipeline does not beat Whisper on the original noisy audio.
-
-### 📄 [PDF Extraction Benchmark](https://github.com/venox-2007/pdf-extraction-benchmark)
-**Comparing document extraction approaches through a shared evaluation toolkit.**
-
-Adapters for PyMuPDF, OpenDataLoader, PaddleOCR, Tesseract, and Docling, with native/scanned document classification, benchmark pipelines, reports, and a Streamlit comparison interface.
-
-`Python` `OCR` `PyMuPDF` `Streamlit`  
-**Scope:** Implemented benchmarking toolkit; results depend on document type, dataset, and runtime environment.
-
-### 🖥️ [Personal AI OS](https://github.com/venox-2007/personal-ai-os)
-**A local AI assistant project with a desktop interface.**
-
-Combines an Ollama tool-calling provider, FastAPI backend, memory and workflow modules, permission and approval handling, and a React/Electron frontend. Includes backend tests and desktop packaging scripts.
-
-`Python` `Ollama` `FastAPI` `React` `Electron`  
-**Scope:** Development project; integrations and packaging need to be evaluated in their intended local environment.
 
 ### 🌌 [ORION](https://github.com/venox-2007/Orion)
 **Your Windows PC, one message or voice note away.**
 
-A personal AI command center you talk to through Telegram. Launch apps, take control of windows, organize files, inspect your system, and run confirmed multi-step workflows from natural-language requests. Powered by local Ollama inference and on-device voice transcription, with persistent conversation memory, task planning, and execution history built around your own machine.
+A personal AI command center you talk to through Telegram. Launch apps, control windows, organize files, inspect your system, and run confirmed multi-step workflows. Local Ollama inference, on-device voice transcription, persistent memory, and execution history bring the intelligence and action together on your own machine.
 
-`Python` `Ollama` `FastAPI` `SQLite` `Telegram Bot API` `faster-whisper`  
-**Scope:** Actively developed personal assistant; Telegram access is owner-only, file access stays within approved folders, and actions that change your PC require confirmation.
+`Python` `Ollama` `FastAPI` `SQLite` `faster-whisper`  
+*Actively developed · Owner-only Telegram access · Approved folders and applications · Confirmation before changes*
+
+### 🧠 [GroundUpGPT](https://github.com/venox-2007/GroundUpGPT)
+**From raw text to a language model of my own.**
+
+A GPT-style Transformer built from the fundamentals: custom byte-level BPE, causal attention, decoder blocks, pretraining, and conversational fine-tuning. Documents experiments with approximately 5M and 27M parameter models, backed by a FastAPI streaming service and a Next.js chat interface.
+
+`Python` `PyTorch` `FastAPI` `Next.js`  
+*Educational model engineering · Documented experiments and limitations · Trained checkpoints stored locally*
+
+### 🌾 [FarmWise](https://github.com/venox-2007/FarmWise)
+**Crop insights, local languages, and a live AI assistant for the field.**
+
+A multilingual agriculture application combining Gemini-powered crop-image analysis, structured treatment suggestions, live camera and microphone interaction, and Open-Meteo forecasts. Built with a React/TypeScript interface for crop advice, market views, and agricultural schemes.
+
+`TypeScript` `React` `Gemini API` `Vite`  
+*Application prototype · Local market data · Farmer login uses a local profile flow*
+
+## 🧰 Tools I build with
+
+**Languages:** Python · TypeScript · JavaScript · HTML · CSS  
+**AI & data:** PyTorch · Ollama · Whisper · NumPy · pandas · scikit-learn · LangGraph · FAISS  
+**Applications:** FastAPI · React · Next.js · Streamlit · Electron · Tailwind CSS · SQLite  
+**Testing:** pytest
 
 <details>
-<summary><b>🌱 More builds & earlier experiments</b></summary>
+<summary><b>🌱 More projects & experiments</b></summary>
 
 <br>
 
 | Project | What it explores |
 | :--- | :--- |
+| [Speech Enhancement & ASR Correction](https://github.com/venox-2007/speech-enhancement-asr-correction) | U-Net denoising, Whisper, and pronunciation-aware correction, evaluated on 824 recordings. Denoising improves audio metrics but increases word errors; the full pipeline does not beat Whisper on the original noisy audio. |
+| [PDF Extraction Benchmark](https://github.com/venox-2007/pdf-extraction-benchmark) | A shared toolkit for comparing PyMuPDF, OpenDataLoader, PaddleOCR, Tesseract, and Docling, with document classification, reports, and a Streamlit interface. Results depend on the documents and runtime. |
+| [Personal AI OS](https://github.com/venox-2007/personal-ai-os) | Local assistant development with Ollama, FastAPI, memory, approval workflows, and a React/Electron desktop interface; includes backend tests and packaging scripts. Integrations and packaging require local evaluation. |
 | [ResearchOS](https://github.com/venox-2007/research-os) | Research-workflow prototype with FAISS/BM25 retrieval, LangGraph orchestration, and traceable evidence; the current LLM factory uses mock providers. |
 | [AtomQuest Goal Portal](https://github.com/venox-2007/atomquest-goal-portal) | React hackathon dashboard for goal approvals, weight validation, quarterly check-ins, and reports using mock data. |
 | [TaskMaster](https://github.com/venox-2007/TaskMaster-Vibe2Ship) | React/Express productivity-coach prototype with Gemini-backed planning and a focus timer. |
