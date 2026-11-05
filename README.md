@@ -121,26 +121,6 @@ A personal AI command center you talk to through Telegram. Launch apps, take con
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=venox-2007&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=60A5FA&amp;icon_color=38BDF8&amp;text_color=C9D1D9" width="495" alt="venox-2007 GitHub statistics" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=venox-2007&amp;hide_border=true&amp;background=0D1117&amp;ring=38BDF8&amp;fire=60A5FA&amp;currStreakNum=E6EDF3&amp;sideNums=60A5FA&amp;currStreakLabel=38BDF8&amp;sideLabels=93C5FD&amp;dates=94A3B8&amp;stroke=334155" width="495" alt="venox-2007 contribution streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=venox-2007&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=60A5FA&amp;text_color=C9D1D9" width="495" alt="Most used languages across public repositories" />
-</p>
-
-<p align="center">
-  <sub>Cards refresh periodically. Language percentages reflect repository code, not proficiency.</sub>
-</p>
-
----
-
 <div align="center">
 
 **From model internals to the interface around them.**
